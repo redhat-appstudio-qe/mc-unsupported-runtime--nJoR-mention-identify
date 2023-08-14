@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-rhtap-mc-unsuported-runtime-uyil
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-eiad-tenant/mc-unsupported-runtime/devfile-sample-python-basic-rhtap-mc-unsuported-runtime-uyil@sha256:14d9cda15abc9bcf3b84096d0f7e9a0b3aa75f5165dc3999b13d05313854d9b2
+        name: my-python
+        resources: {}
+status: {}
